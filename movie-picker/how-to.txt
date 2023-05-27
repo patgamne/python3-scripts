@@ -1,0 +1,28 @@
+How to Use the Movie Details Script
+
+Step 1: Install Required Libraries
+
+To use the Movie Details script, you need to install the following libraries using pip:
+pip install -r requirements.txt
+Make sure you have Python and pip installed on your system before running the above commands.
+
+Step 2: Prepare the Movie List
+
+Create a text file named movie_list.txt in the same directory as the script. List the movie titles, each on a separate line. For example:
+
+Copy code
+Die Hard
+Inception
+The Dark Knight
+
+Feel free to add or remove movies from the list.
+
+Step 3: Run the Script
+
+Execute the script using Python. Open your terminal or command prompt, navigate to the directory containing the script, and run the following command:
+
+Copy code
+python ibm.py
+The script will randomly select a movie from the movie_list.txt file, fetch its details from the OMDB API, and display the title, actor, description, and poster image. The poster image will also be saved to your desktop.
+
+Save the above text in a file named how_to_use.txt or any other suitable name. It provides instructions on installing the required libraries and using the script along with the movie list.
